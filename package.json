@@ -1,0 +1,15 @@
+{
+  "name": "cmd-node",
+  "version": "1.0.0",
+  "description": "A CLI Tool for Forrest Smietanski",
+  "main": "start.js",
+  "scripts": {
+    "start": " node start.js",
+	  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Forrest Smietanski",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
