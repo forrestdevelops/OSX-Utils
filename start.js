@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 rl.question('What is your name?', function(name) {
 	rl.question('Where do you live?', function(city) {
-		console.log(`${name} is a citizen of ${city}`)
+		console.log(`${name.trim()} is a citizen of ${city.trim()}`)
 		rl.close()
 	})
 })
