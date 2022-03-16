@@ -5,14 +5,14 @@ const rl = readline.createInterface({
 	output: process.stdout,
 })
 
-rl.question('What is your name?', function(name) {
-	rl.question('Where do you live?', function(city) {
-		console.log(`${name.trim()} is a citizen of ${city.trim()}`)
+rl.question('What would you like to do?', function(task) {
+	task = task.trim()
+	console.log(`starting ${task}...`)
+	console.log(`completed ${task}.`)
 		rl.close()
-	})
 })
 
 rl.on('close', function() {
-	console.log(`\nBYE BYE !!!`)
+	console.log(`Forrest Smietanski © 2022`)
 	process.exit(0)
 })
